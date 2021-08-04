@@ -1,0 +1,11 @@
+POST http://127.0.0.1:3001/api/notes 
+Content-Type: application/json
+
+{
+    "content": "una nueva nota",
+    "important": true
+}
+
+###
+POST http://127.0.0.1:3001/api/notes 
+Content-Type: application/json
